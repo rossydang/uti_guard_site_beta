@@ -51,7 +51,7 @@ const PatientGrid = () => {
 
   return (
     <div className="d-flex flex-wrap bd-highlight justify-content-start">
-      <div className="bd-highlight mb-3 me-3"><PatientCard temperature={temperature} color={cardColor} /></div>
+      <div className="bd-highlight mb-3 me-3"><PatientCard temperature={"Room 000"} color={cardColor} /></div>
       <div className="bd-highlight mb-3 me-3 "><PatientCard temperature={"Room 123"} color="#FCD739" /></div>
       <div className="bd-highlight mb-3 me-3"><PatientCard temperature={"Room 223"} color="#FCD739" /></div>
       <div className="bd-highlight mb-3 me-3"><PatientCard temperature={"Room 323"} color="#FCD739" /></div>
