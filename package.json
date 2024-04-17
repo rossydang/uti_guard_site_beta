@@ -1,0 +1,30 @@
+{
+  "name": "uti_guard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "arduino-iot-js": "^0.13.0",
+    "bootstrap": "^5.3.3",
+    "crypto-browserify": "^3.12.0",
+    "firebase": "^10.11.0",
+    "jwa": "^2.0.0",
+    "jws": "^4.0.0",
+    "jwt-decode": "^4.0.0",
+    "next": "^14.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}
